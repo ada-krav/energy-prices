@@ -10,16 +10,18 @@ python -m venv venv
 venv\Scripts\activate (on Windows)
 source venv/bin/activate (on macOS)
 pip install -r requirements.txt
-python app.py 
-python script/scraper.py
+python app.py (to run Flask)
+python script/scraper.py (to run script)
 ```
 
 
-## Features:
+## Prices Scraper:
+It's recommended to schedule script execution once a day around 12:00 to get info as fast as possible.
+* Recursive execution every 5 minutes until data is available.
+* Selenium and BeautifulSoup for data fetching
+* SQLite as database engine
 
-*  Repeated execution to fetch current data
-*  Access to information in db through Flask API endpoint
-* Database with included, so you can test Flask app straight from the box
+## Flask API endpoint
 
-## Additional info:
-It's recommended to schedule script execution once a day around 12:00.
+* Access to information in db through Flask API endpoint
+* Database is included, so you can test Flask app straight from the box
