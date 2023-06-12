@@ -1,7 +1,7 @@
 # Energy prices scraper
 
 ## Installation:
-It`s asumed that Python3 is already installed:
+It`s assumed that Python3 is already installed:
 
 ```shell
 git clone https://github.com/ada-krav/energy-prices.git
@@ -19,6 +19,7 @@ python script/scraper.py
 
 *  Repeated execution to fetch current data
 *  Access to information in db through Flask API endpoint
+* Database with included, so you can test Flask app straight from the box
 
 ## Additional info:
-It's reccomended to schedule script execution once a day around 12:00.
+It's recommended to schedule script execution once a day around 12:00.
