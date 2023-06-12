@@ -17,7 +17,7 @@ python script/scraper.py (to run script)
 
 ## Prices Scraper:
 It's recommended to schedule script execution once a day around 12:00 to get info as fast as possible.
-* Recursive execution every 5 minutes until data is available.
+* Recursive execution once every 5 minutes until data is available.
 * Selenium and BeautifulSoup for data fetching
 * SQLite as database engine
 
