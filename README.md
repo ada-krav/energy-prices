@@ -7,7 +7,7 @@ It`s assumed that Python3 is already installed:
 git clone https://github.com/ada-krav/energy-prices.git
 cd energy-prices
 python -m venv venv
-venv\Scripts\activate (on Windows)
+venv\Scripts\activate (on Windows) or venv/Scripts/activate (depends on system settings)
 source venv/bin/activate (on macOS)
 pip install -r requirements.txt
 python app.py (to run Flask)
