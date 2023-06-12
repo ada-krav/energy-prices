@@ -64,7 +64,7 @@ def scrape_prices() -> None:
     driver = webdriver.Chrome()
 
     driver.get(URL)
-    driver.implicitly_wait(100)
+    driver.implicitly_wait(10)
 
     element = driver.find_element(
         By.XPATH, "//*[contains(text(), 'Погодинні результати на РДН')]"
